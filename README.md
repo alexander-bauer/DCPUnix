@@ -18,7 +18,7 @@ WHAT WE NEED TO DO:
 METHOD:
 
 I propose translating the files in the order they will be compiled according to "/usr/source/run"
-(e.g. starting with "/usr/sys/ken/run").
+(e.g. starting with the C files in "/usr/sys/ken").
 
 From what I understand, the DCPU Toolchain is the most mature set of tools, so we should aim for our C code to be
 compliant with their C compiler.
