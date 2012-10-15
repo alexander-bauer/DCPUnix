@@ -14,3 +14,11 @@ WHAT WE NEED TO DO:
 1. The PDP-11 assembly needs to be translated to DCPU16 assembly.
 2. The pre-ANSI C needs to be translated to modern C (specifically, C that we can compile using available DCPU tools).
 3. Low-level system code needs to be modified to work with the DCPU
+
+METHOD:
+
+I propose translating the files in the order they will be compiled according to "/usr/source/run"
+(e.g. starting with "/usr/sys/ken/run").
+
+From what I understand, the DCPU Toolchain is the most mature set of tools, so we should aim for our C code to be
+compliant with their C compiler.
