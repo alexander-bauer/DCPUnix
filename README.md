@@ -4,6 +4,8 @@ WHAT WE HAVE TO WORK WITH:
 
 In the original_v6 directory you will find the original, unmodified Version 6 Unix source code.
 
+The original source code was obtained from http://minnie.tuhs.org/cgi-bin/utree.pl
+
 As far as I can tell, to compile Version 6 Unix on the PDP-11, one would navigate to "/usr/source"
 and execute "sh run"
 
